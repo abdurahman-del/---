@@ -1,0 +1,336 @@
+  @import './resert.css';
+
+body {
+
+    font-family: j;
+}
+ 
+.container {
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    color: #999;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left_navbar {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   cursor: pointer;
+}
+.nav_link {
+    display: flex;
+    align-items: center;   
+    gap: 3px;
+    
+
+}
+
+.nav_link h3 {
+   font-size:18px;
+font-weight: 600;
+transition: all .2s linear;
+}
+
+.logo {
+   font-weight: 700;
+   font-size: 25px;
+   color: #fff;
+
+
+}
+
+.right_navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.Avatar {
+
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    
+}
+   
+
+.link_icon {
+  align-items: center;
+  width: 22px;
+  height:22px ;
+
+}
+
+.search {
+    background-color: #989898;
+     width:300px ;
+     padding: 8px 8px;
+    border-radius: 10px;
+    opacity: 0,5;
+    color: white;
+}
+
+.search:focus {
+    background-color: #fff;
+    opacity: 1;
+    color: #000;
+}
+
+
+.search ::placeholder{
+       color: #fff;
+
+}
+
+
+.input_wrapper {
+    position: relative;
+    display: inline-block;
+
+}
+
+.search_icon {
+    position: absolute;
+    color: #a9a7a7;
+    right: 10px;
+    width: 20px;
+    height:20px ;
+    top: 7px;
+
+}
+
+.afisha {
+    position: relative;
+    margin-top: 60px;
+}
+
+.text {
+
+   position: absolute;
+   top: 60px;
+   width: 50%;
+   left: 50px;
+   color: #fff;
+
+
+}
+
+.text h1 {
+
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.text p {
+margin-bottom: 30px;
+
+}
+
+.text h3 {
+
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(252, 252, 252);
+}
+
+.button {
+
+    
+    padding: 17px 25px;
+    background: linear-gradient(135deg, #f50 69.93%, #d6bb00);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+video {
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.popular {
+margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+
+
+}
+
+.film {
+
+font-size: 25px;
+font-weight: 300;
+
+
+}
+
+button {
+padding: 5px 10px;
+ background: linear-gradient(135deg, #f50 69.93%, #d6bb00);
+display: flex;
+align-items: center;
+color: #fff;
+
+  
+
+}
+
+
+button:hover {
+ transform: scale(1.1);
+
+
+}
+
+/*детальная станица*/
+
+
+.movie_detail {
+
+margin-top: 40px;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+}
+
+.movie_detail img {
+
+width: 30%;
+
+}
+
+.info_title {
+
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 30px;
+
+}
+
+.info_suptitle{
+
+
+margin-bottom: 15px;
+font-size: 20px;
+
+
+}
+
+
+.discription {
+
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+
+.burger {
+
+
+    display: none;
+}
+
+
+@media (max-width:1000px) {
+    .container {
+        padding: 0 15px;
+    }
+
+   .nav_link {
+
+    display: none;
+   }
+
+   .nav {
+
+    display: flex;
+   }
+
+   .popular {
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+   }
+
+}
+
+
+
+
+@media (max-width:764px) {
+    .burger {
+
+        display: block;
+        width: 35px;
+        height: 35px;
+    }
+
+
+  .link_icon {
+
+    display: none;
+  }
+
+  .input_wrapper {
+    display: none;
+  }
+
+  .Avatar {
+    display: none;
+  }
+
+  .text {
+    width: 100%;
+    top: 20px;
+    left: 20px;
+
+
+  }
+
+  .popular {
+
+    grid-template-columns: repeat(2,1fr);
+  }
+
+
+
+}
+ 
+    
+
+
+
+
+
+
