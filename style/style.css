@@ -293,7 +293,7 @@ margin-bottom: 10px;
 
         display: block;
         width: 35px;
-        height: 35px;
+        height: 35px; 
     }
 
 
@@ -305,7 +305,7 @@ margin-bottom: 10px;
   .input_wrapper {
     display: none;
   }
-
+                             
   .Avatar {
     display: none;
   }
@@ -320,17 +320,11 @@ margin-bottom: 10px;
 
   .popular {
 
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);    
   }
 
 
 
 }
  
-    
-
-
-
-
-
 

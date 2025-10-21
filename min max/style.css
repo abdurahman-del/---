@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff6600;
+  margin-bottom: 30px;
+  
+}
+
+.box {
+  background: #ff6600;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.min {
+  width: min(100%, 400px);
+}
+
+.max {
+  width: max(50%, 300px);
+}
+
+.clamp {
+  width: clamp(200px, 50vw, 600px);
+}
+
+.text {
+  font-size: clamp(16px, 2vw, 24px);
+  margin-top: 30px;
+  color: #333;
+}
